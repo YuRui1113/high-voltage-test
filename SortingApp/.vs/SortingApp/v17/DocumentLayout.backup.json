@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Work\\Project\\HuiDe\\Doc\\\u57F9\u8BAD\\\u9AD8\u538B\u7535\u5DE5\\\u6392\u5E8F\\SortingApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1D21B87F-47AA-4102-BB91-B9B9DA4CA1B6}|SortingApp\\SortingApp.csproj|c:\\work\\project\\huide\\doc\\\u57F9\u8BAD\\\u9AD8\u538B\u7535\u5DE5\\\u6392\u5E8F\\sortingapp\\sortingapp\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1D21B87F-47AA-4102-BB91-B9B9DA4CA1B6}|SortingApp\\SortingApp.csproj|solutionrelative:sortingapp\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D21B87F-47AA-4102-BB91-B9B9DA4CA1B6}|SortingApp\\SortingApp.csproj|c:\\work\\project\\huide\\doc\\\u57F9\u8BAD\\\u9AD8\u538B\u7535\u5DE5\\\u6392\u5E8F\\sortingapp\\sortingapp\\sortingapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1D21B87F-47AA-4102-BB91-B9B9DA4CA1B6}|SortingApp\\SortingApp.csproj|solutionrelative:sortingapp\\sortingapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D21B87F-47AA-4102-BB91-B9B9DA4CA1B6}|SortingApp\\SortingApp.csproj|c:\\work\\project\\huide\\doc\\\u57F9\u8BAD\\\u9AD8\u538B\u7535\u5DE5\\\u6392\u5E8F\\sortingapp\\sortingapp\\sortingapp.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{1D21B87F-47AA-4102-BB91-B9B9DA4CA1B6}|SortingApp\\SortingApp.csproj|solutionrelative:sortingapp\\sortingapp.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Work\\Project\\HuiDe\\Doc\\\u57F9\u8BAD\\\u9AD8\u538B\u7535\u5DE5\\\u6392\u5E8F\\SortingApp\\SortingApp\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "SortingApp\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Work\\Project\\HuiDe\\Doc\\\u57F9\u8BAD\\\u9AD8\u538B\u7535\u5DE5\\\u6392\u5E8F\\SortingApp\\SortingApp\\Properties\\launchSettings.json",
+              "RelativeToolTip": "SortingApp\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-03T03:54:39.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SortingApp",
+              "DocumentMoniker": "C:\\Work\\Project\\HuiDe\\Doc\\\u57F9\u8BAD\\\u9AD8\u538B\u7535\u5DE5\\\u6392\u5E8F\\SortingApp\\SortingApp\\SortingApp.csproj",
+              "RelativeDocumentMoniker": "SortingApp\\SortingApp.csproj",
+              "ToolTip": "C:\\Work\\Project\\HuiDe\\Doc\\\u57F9\u8BAD\\\u9AD8\u538B\u7535\u5DE5\\\u6392\u5E8F\\SortingApp\\SortingApp\\SortingApp.csproj",
+              "RelativeToolTip": "SortingApp\\SortingApp.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-03T03:51:43.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SortingApp",
+              "DocumentMoniker": "C:\\Work\\Project\\HuiDe\\Doc\\\u57F9\u8BAD\\\u9AD8\u538B\u7535\u5DE5\\\u6392\u5E8F\\SortingApp\\SortingApp\\SortingApp.csproj",
+              "RelativeDocumentMoniker": "SortingApp\\SortingApp.csproj",
+              "ToolTip": "C:\\Work\\Project\\HuiDe\\Doc\\\u57F9\u8BAD\\\u9AD8\u538B\u7535\u5DE5\\\u6392\u5E8F\\SortingApp\\SortingApp\\SortingApp.csproj",
+              "RelativeToolTip": "SortingApp\\SortingApp.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-03T02:57:35.949Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

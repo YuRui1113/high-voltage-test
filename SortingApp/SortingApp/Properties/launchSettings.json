@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "SortingApp (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "SortingApp (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

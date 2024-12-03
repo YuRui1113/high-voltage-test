@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window
+    x:Class="SortingApp.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SortingApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" Title="高压电工实操排序">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="5*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="5*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Grid Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" BorderBrush="LightGray" BorderThickness="1" CornerRadius="12" Padding="12" Margin="10">
+            <RadioButtons x:Name="RDBOptions"  
+          SelectedIndex="0" Margin="10" MaxColumns="4" Header="请选择实操类型：" 
+          ItemsSource="{x:Bind Operations}" SelectionChanged="RDBOptions_SelectionChanged" >
+                <!--<x:String>进线101开关由运行转冷备用</x:String>
+            <x:String>进线101开关由冷备用转运行</x:String>
+            <x:String>出线102开关由运行转</x:String>
+            <x:String>出线102开关由检修转运行</x:String>-->
+            </RadioButtons>
+        </Grid>
+
+        <ListView x:Name="OrigView"   Grid.Row="1" Grid.Column="0" BorderBrush="LightGray" BorderThickness="1" Margin="10" Padding="5"
+          ScrollViewer.HorizontalScrollMode="Enabled"
+          ScrollViewer.HorizontalScrollBarVisibility="Auto"
+          ScrollViewer.VerticalScrollMode="Disabled"
+          ScrollViewer.VerticalScrollBarVisibility="Hidden"
+                   ItemsSource="{x:Bind Steps}" SelectionChanged="OrigView_SelectionChanged">
+        </ListView>
+
+        <Button Grid.Row="1" Grid.Column="1" x:Name="BtnCheck" HorizontalAlignment="Center" Click="BtnCheck_Click">排序结果</Button>
+
+        <ListView x:Name="SortedView"   Grid.Row="1" Grid.Column="2" BorderBrush="LightGray" BorderThickness="1" Margin="10" Padding="5"
+          ScrollViewer.HorizontalScrollMode="Enabled"
+            ScrollViewer.HorizontalScrollBarVisibility="Auto"
+            ScrollViewer.VerticalScrollMode="Disabled"
+            ScrollViewer.VerticalScrollBarVisibility="Hidden"
+                  ItemsSource="{x:Bind OrderedSteps}">
+        </ListView>
+    </Grid>
+</Window>

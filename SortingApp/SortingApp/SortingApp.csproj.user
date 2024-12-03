@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_LastSelectedProfileId>C:\Work\Project\HuiDe\Doc\培训\高压电工\排序\SortingApp\SortingApp\Properties\PublishProfiles\win-x64.pubxml</_LastSelectedProfileId>
+    <ActiveDebugProfile>SortingApp (Unpackaged)</ActiveDebugProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Update="App.xaml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Update="Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+</Project>
